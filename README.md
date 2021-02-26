@@ -5,11 +5,6 @@ brand awareness. One of Feed's features is to automate ad creation using a
 users social media posts. To give users an idea how their posts perform as ads,
 we aggregate multiple insights and calculate a performance score.
 
-This short exercise is to create a function that can accept a post id and
-returns its aggregated insights data including the spend per outbound click,
-i.e. `post_total_spend / post_total_outbound_clicks`. See [Example Response](#example-response).
-
-You are free to use this project as a template but are not required to do so.
 A solution using TypeScript is preferred although plain JavaScript is also OK.
 Feel free to include any package dependencies that are required.
 
@@ -20,10 +15,23 @@ for any assumptions made or missing implementation details. The feedback stage
 will involve talking to a couple of the developers where we will tell you more
 about what we're building and how you can help us grow the platform.
 
-> Optional task ideas:
->
-> - Create a GET endpoint to return your aggregated insights result, e.g. `GET /posts/:postId`
-> - Write unit and/or functional tests
+In this exercise you are tasked with writing a script that accomplish the following:
+
+## ETL Excercise
+Create Service for watchign a directory for any new json files. For example using a node js demon.
+
+Behaviour:
+- When a new *ad_insights* file arrives to the directory, parce it and calculate the following:
+> - Aggregate the spend by account_id and display top 3 spending accounts.
+> - Aggregate the spend by campaign and display the top 3 spending campaign. 
+> - Calculate the min,max and average cost per impression per spending account.
+- Output the result in json format on a new file.
+
+## Endpoint Excercise 
+Using the post_ads.json file create a GET endpoint (`GET /posts/:postId`) that can accept a post id and returns its aggregated the following insights data:
+
+> - The spend per outbound click, i.e. `post_total_spend / post_total_outbound_clicks`. See [Example Response](#example-response).
+> - Write unit and/or functional tests.
 
 ## Submission
 
