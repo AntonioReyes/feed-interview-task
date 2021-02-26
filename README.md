@@ -5,7 +5,7 @@ brand awareness. One of Feed's features is to automate ad creation using a
 users social media posts. To give users an idea how their posts perform as ads,
 we aggregate multiple insights and calculate a performance score.
 
-For this exercise we recommend spending no longer than a couple of hours. Your
+For this Exercise we recommend spending no longer than a couple of hours. Your
 submission does not need to be complete but do be prepared to discuss your
 solution in the subsequent feedback stage. It's recommended to add comments
 for any assumptions made or missing implementation details and feel free to 
@@ -21,19 +21,19 @@ A solution using TypeScript is preferred although plain JavaScript is also OK.
 In this exercise you are tasked with writing a script that accomplish the following funcionality,
 feel free to include any package dependencies that are required and keep note of any references you might use like stackoverflow.
 
-## ETL Excercise
+## ETL Exercise
 Create a service for watching a directory for any new json files. For example using a node js demon.
 
 Behaviour:
 - When a new *ad_insights* file arrives to the directory, parce it and calculate the following:
 > - Aggregate the spend by account_id and display top 3 spending accounts.
-> - Aggregate the spend by campaign and display the top 3 spending campaign. 
+> - Aggregate the spend by campaign and display the top 3 spending campaigns. 
 > - Calculate the min,max and average cost per impression per spending account.
 - Output the result in json format on a new file.
 
 Consider how to handle corrupt files, errors, throttling and high throughput scenarios.
 
-## Endpoint Excercise 
+## Endpoint Exercise 
 Using the post_ads.json file create a GET endpoint (`GET /posts/:postId`) that can accept a post id and returns its aggregated the following insights data:
 
 > - The spend per outbound click, i.e. `post_total_spend / post_total_outbound_clicks`. See [Example Response](#example-response).
