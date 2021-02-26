@@ -5,17 +5,17 @@ brand awareness. One of Feed's features is to automate ad creation using a
 users social media posts. To give users an idea how their posts perform as ads,
 we aggregate multiple insights and calculate a performance score.
 
-A solution using TypeScript is preferred although plain JavaScript is also OK.
-Feel free to include any package dependencies that are required.
-
-We recommend spending no longer than a couple of hours on this task. Your
+For this exercise we recommend spending no longer than a couple of hours. Your
 submission does not need to be complete but do be prepared to discuss your
 solution in the subsequent feedback stage. It's recommended to add comments
 for any assumptions made or missing implementation details. The feedback stage
 will involve talking to a couple of the developers where we will tell you more
 about what we're building and how you can help us grow the platform.
 
-In this exercise you are tasked with writing a script that accomplish the following:
+A solution using TypeScript is preferred although plain JavaScript is also OK. 
+
+In this exercise you are tasked with writing a script that accomplish the following funcionality,
+feel free to include any package dependencies that are required.
 
 ## ETL Excercise
 Create Service for watchign a directory for any new json files. For example using a node js demon.
