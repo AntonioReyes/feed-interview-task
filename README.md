@@ -8,17 +8,21 @@ we aggregate multiple insights and calculate a performance score.
 For this exercise we recommend spending no longer than a couple of hours. Your
 submission does not need to be complete but do be prepared to discuss your
 solution in the subsequent feedback stage. It's recommended to add comments
-for any assumptions made or missing implementation details. The feedback stage
-will involve talking to a couple of the developers where we will tell you more
-about what we're building and how you can help us grow the platform.
+for any assumptions made or missing implementation details and feel free to 
+ask any relevant questions. 
+
+In the follow up interview you will require to demo your system working and talk 
+through the solution, possible pitfalls and other considerations or approaches.
+The feedback stage will involve talking to a couple of the developers where we 
+will tell you more about what we're building and how you can help us grow the platform.
 
 A solution using TypeScript is preferred although plain JavaScript is also OK. 
 
 In this exercise you are tasked with writing a script that accomplish the following funcionality,
-feel free to include any package dependencies that are required.
+feel free to include any package dependencies that are required and keep note of any references you might use like stackoverflow.
 
 ## ETL Excercise
-Create Service for watchign a directory for any new json files. For example using a node js demon.
+Create a service for watching a directory for any new json files. For example using a node js demon.
 
 Behaviour:
 - When a new *ad_insights* file arrives to the directory, parce it and calculate the following:
@@ -26,6 +30,8 @@ Behaviour:
 > - Aggregate the spend by campaign and display the top 3 spending campaign. 
 > - Calculate the min,max and average cost per impression per spending account.
 - Output the result in json format on a new file.
+
+Consider how to handle corrupt files, errors, throttling and high throughput scenarios.
 
 ## Endpoint Excercise 
 Using the post_ads.json file create a GET endpoint (`GET /posts/:postId`) that can accept a post id and returns its aggregated the following insights data:
