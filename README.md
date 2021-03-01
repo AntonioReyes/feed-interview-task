@@ -22,10 +22,10 @@ In this exercise you are tasked with writing a script that accomplish the follow
 feel free to include any package dependencies that are required and keep note of any references you might use like stackoverflow.
 
 ## ETL Exercise
-Create a service for watching a directory for any new json files. For example using a node js demon.
+Create a service for watching a directory for any new json files. For example using a node js daemon.
 
 Behaviour:
-- When a new *ad_insights* file arrives to the directory, parce it and calculate the following:
+- When a new *ad_insights* file arrives to the directory, parse it and calculate the following:
 > - Aggregate the spend by account_id and display top 3 spending accounts.
 > - Aggregate the spend by campaign and display the top 3 spending campaigns. 
 > - Calculate the min,max and average cost per impression per spending account.
