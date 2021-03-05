@@ -13,13 +13,14 @@ ask any relevant questions.
 
 In the follow up interview you will require to demo your system working and talk 
 through the solution, possible pitfalls and other considerations or approaches.
-The feedback stage will involve talking to a couple of the developers where we 
+This stage will involve talking to a couple of the developers where we 
 will tell you more about what we're building and how you can help us grow the platform.
 
 A solution using TypeScript is preferred although plain JavaScript is also OK. 
 
-In this exercise you are tasked with writing a script that accomplish the following funcionality,
-feel free to include any package dependencies that are required and keep note of any references you might use like stackoverflow.
+In this exercise you are tasked with writing a script that accomplish the 
+following funcionality,feel free to include any package dependencies that 
+are required and keep note of any references you might use like stackoverflow.
 
 ## ETL Exercise
 Create a service for watching a directory for any new json files. For example using a node js daemon.
@@ -41,9 +42,10 @@ Using the post_ads.json file create a GET endpoint (`GET /posts/:postId`) that c
 
 ## Submission
 
-Please submit your solution via either:
-- a repository on GitHub (or similar)
-- an e-mail attachment
+You will be provided with a link to book your second stage interview, 
+__you most submit your solution at least 4 hours before your booked slot.
+
+Please submit your solution via either a repository or e-mail:
 
 If you choose the latter, be sure to omit any dependencies handled by a  package
 manager. `git` can be used to create an archive like so:
@@ -68,7 +70,7 @@ by their id and `ad_id` to "join" to `ad_insights.id`.
 Provides sample ad insights in the same format that would be returned via
 Facebook's Marketing API.
 
-## Example Response
+## Endpoint Example Response
 
 
 **Input data:**
